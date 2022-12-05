@@ -1,0 +1,30 @@
+.text-orange {
+    color: orangered;
+}
+.cdm-subheading {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.cdm-enrollable {
+    color: green;
+}
+
+.cdm-unenrollable {
+    color: red;
+}
+
+.dp-overlay {
+    background: none!important;
+}
+
+.dp-pin {
+    color: orangered;
+    margin-right: 0.25rem;
+}
+
+.cdm-description {
+    max-height: 20vh;
+    overflow-y: auto!important;
+    -webkit-overflow-scrolling: touch!important;
+}

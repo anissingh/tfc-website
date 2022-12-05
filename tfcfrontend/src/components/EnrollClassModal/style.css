@@ -1,0 +1,30 @@
+.text-orange {
+    color: orangered;
+}
+.cem-subheading {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.cem-enrollable {
+    color: green;
+}
+
+.cem-unenrollable {
+    color: red;
+}
+
+.en-modal-overlay {
+    background: none!important;
+}
+
+.en-pin {
+    color: orangered;
+    margin-right: 0.25rem;
+}
+
+.cem-description {
+    max-height: 20vh;
+    overflow-y: auto!important;
+    -webkit-overflow-scrolling: touch!important;
+}

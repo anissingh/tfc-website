@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.studio-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none;
+}
+
+.studio-item:hover {
+    cursor: pointer;
+}
+
+.studio-item-subtext {
+    font-size: 0.8rem;
+    line-height: 0.5;
+}
+
+.studio-item-button-text {
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+@media (min-width: 1400px) and (min-height: 850px) {
+    .studio-item {
+        min-width: 320px;
+    }
+}
